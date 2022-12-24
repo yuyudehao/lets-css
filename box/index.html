@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .content-box {
+
+           padding: 10px 20px ; 
+            box-sizing: border-box;
+            border: 5px solid red;
+        }
+
+        .border-box{
+            padding: 10px 20px 30px 40px;/* 当设置俩个数值时是上上下下，当设置四个数字时是上 右 下 左。*/
+
+        }
+        .line{
+         margin-top: 100px;/* 行标签是设置不来竖直高度的 */
+         margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="content-box">这是一个标准盒模型</div>
+    <div class="border-box">这是一个IE盒模型</div>
+    <span class="line">这是一个行内标签</span>
+</body>
+</html>

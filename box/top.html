@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .top-ele{
+           display: inline-block;/*让行标签有了块标签的属性可以设置高宽 */
+         margin: 0px 12px;
+         width: 28px;
+         height: 60;
+         font-size: 12px;
+         line-height: 60px; /* 当行高和这个设置的一样时垂直居中*/
+         text-align: center;/**水平居中**/
+        }
+        .top-ele:hover{
+
+            cursor: pointer;
+            color: blueviolet;
+            border-bottom: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+
+  <div>
+    <span class="top-ele">首页</span>
+    <span class="top-ele">沸点</span>
+    <span class="top-ele">学习</span>
+    <span class="top-ele">字典</span>
+    <span class="top-ele">查找</span>
+    <span class="top-ele">外面</span>
+    </div>
+</html>
